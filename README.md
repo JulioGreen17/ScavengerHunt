@@ -4,7 +4,7 @@ Submitted by: *Julio Varela**
 
 **ScavengerHunt ** is an app that ... allows users to attach photos to see visuals and complete tasks.
 
-Time spent: **4** hours spent in total
+Time spent: **4** hours spent in total (Majority spent on linking to github properly)
 
 ## Required Features
 
@@ -18,7 +18,7 @@ The following **required** functionality is completed:
  
 The following **optional** features are implemented:
 
-- [ ] User can launch camera to snap a picture	
+- [] User can launch camera to snap a picture	
 
 The following **additional** features are implemented:
 
