@@ -31,7 +31,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3hR-MB-ER4">
                                                     <rect key="frame" x="20" y="10.999999999999998" width="350" height="20.333333333333329"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.inset.filled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-Ug-cUc">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-Ug-cUc">
                                                             <rect key="frame" x="0.0" y="0.6666666666666643" width="18" height="19.333333333333332"/>
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" weight="light">
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -107,7 +107,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sqt-n7-c1E" userLabel="Completed Status Stack View">
                                 <rect key="frame" x="24.000000000000007" y="115" width="101.66666666666669" height="20.333333333333343"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.inset.filled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gP7-Uc-dFm">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gP7-Uc-dFm">
                                         <rect key="frame" x="0.0" y="0.6666666666666643" width="19.333333333333332" height="19.333333333333332"/>
                                         <color key="tintColor" systemColor="systemBlueColor"/>
                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" weight="light">
@@ -282,20 +282,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Task" id="vWC-DD-cn2">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fmg-4p-f0B">
-                            <connections>
-                                <action selector="didTapCancelButton:" destination="fZK-XV-ZSw" id="tc2-q5-u9F"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fmg-4p-f0B"/>
                         <barButtonItem key="rightBarButtonItem" title="Done" id="oxE-u5-MuP">
                             <connections>
-                                <action selector="didTapDoneButton:" destination="fZK-XV-ZSw" id="2zz-5T-Uoy"/>
+                                <action selector="didTapDoneButton:" destination="fZK-XV-ZSw" id="EBn-I6-2Eb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="descriptionField" destination="fXp-ww-cKc" id="m4F-Ad-baQ"/>
-                        <outlet property="titleField" destination="lYk-Ia-Eqa" id="N3B-CA-1Dv"/>
+                        <outlet property="descriptionField" destination="fXp-ww-cKc" id="f2r-2f-uo6"/>
+                        <outlet property="titleField" destination="lYk-Ia-Eqa" id="Dde-Gi-Vuz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rLa-nr-FEm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -322,7 +318,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle.inset.filled" catalog="system" width="128" height="123"/>
+        <image name="circle.fill" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
