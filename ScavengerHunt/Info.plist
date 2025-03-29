@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>CAN WE ACCESS YOUR CAMERA TO TAKE PHOTOS?</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>CAN WE SAVE YOUR PHOTO TO GET THE LOCATION?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>CAN WE ACCESS YOUR PHOTOS? </string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

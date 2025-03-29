@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ScavengerHunt
+//  lab-task-squirrel
 //
-//  Created by Julio Varela on 3/25/25.
+//  Created by Charlie Hieger on 11/15/22.
 //
 
 import UIKit
