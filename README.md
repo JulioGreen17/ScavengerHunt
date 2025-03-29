@@ -25,7 +25,6 @@ The following **additional** features are implemented:
 - N/A
 
 ## Video Walkthrough
-![The LOOM](https://www.loom.com/share/04f7ef5986d84abf893b221bc8f5229d?sid=f732acd9-f48e-4089-9404-16637057fa77)
 ![The DEMO](Project1Walkthrough-ezgif.com-video-to-gif-converter.gif)
 
 ## Notes
